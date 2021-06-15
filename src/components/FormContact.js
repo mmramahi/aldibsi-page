@@ -15,7 +15,12 @@ const FormConract = () => {
               We are here to help, send your project details and an expert will
               contact you
             </h4>
-            <Form name="contact" netlify>
+            <Form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
                 <Form.Control name="name" type="text" placeholder="Your Name" />
