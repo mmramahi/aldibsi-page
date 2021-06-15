@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Container, Image, Col, Row, Card, CardDeck } from "react-bootstrap"
+import { Container, Card, CardDeck } from "react-bootstrap"
 
 const OurWork = () => {
   return (

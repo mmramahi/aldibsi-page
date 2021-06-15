@@ -1,6 +1,5 @@
 import React from "react"
 import { Container } from "react-bootstrap"
-import { Facebook } from "bootstrap-icons-react"
 
 const Footer = () => {
   return (
