@@ -1,17 +1,16 @@
 import React from "react"
-import Navbar from "./Navbar"
+import NavBar from "./Navbar"
 import Footer from "./Footer"
 import Seo from "../components/Seo"
-import "../styles/reset.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+// import "../styles/reset.css"
 import "../styles/global.css"
 
 const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Seo />
-      <div className="nav-raper">
-        <Navbar />
-      </div>
+      <NavBar />
       <div className="content">{children}</div>
       <Footer />
     </div>
