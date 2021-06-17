@@ -19,10 +19,10 @@ const About = ({ data }) => {
         <div className="aboutHeader">
           <h1 className="text-right">عن الشركة</h1>
           <h4 className="text-right">من نحن</h4>
-          <h2 className="text-right">
+          <h2 className="text-right" style={{ color: "#ebebeb" }}>
             نحن مختصون بالتسويق. موجودون لمساعدتك على النمو.{" "}
           </h2>
-          <p className="text-right">
+          <p className="text-right" style={{ color: "#ebebeb" }}>
             نجعلها بسيطة. نأتي كل يوم إلى العمل لأننا نحب ذلك نبحث عن حلول لأكثر
             مشكلات التسويق إثارة. نهتم بعملائنا. خبرتنا وتجربتنا في استراتيجية
             التسويق و التنفيذ تجلب خدمات تسويق ذات مستوى عالمي للشركات ، دون
@@ -33,10 +33,10 @@ const About = ({ data }) => {
             <Row>
               <Col md={6}>
                 <h4 className="text-right">لماذا تختارنا</h4>
-                <h2 className="text-right">
+                <h2 className="text-right" style={{ color: "#ebebeb" }}>
                   نحن نتفهم حقًا احتياجات السوق في مساحتنا.{" "}
                 </h2>
-                <p className="text-right">
+                <p className="text-right" style={{ color: "#ebebeb" }}>
                   نحن نحب إحداث تأثير. نحن نوظف وندرب ونستثمر في موظفينا لمساعدة
                   رغبتنا في دفع الإبداع والتسويق وخلق قيمة لعملائنا. هدفنا هو
                   مساعدتك على زيادة الوعي بالعلامة التجارية وجذب العملاء

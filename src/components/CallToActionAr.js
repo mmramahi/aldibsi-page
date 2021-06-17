@@ -18,7 +18,7 @@ const CallToActionAr = () => {
           <Col md={6} className="d-flex align-items-center CTA">
             <div style={{ color: "#ff9700" }} dir="rtl">
               <h2 className="pb-4 text-right">مهمتنا</h2>
-              <p style={{ color: "#fff" }} dir="rtl">
+              <p style={{ color: "#ebebeb" }} dir="rtl">
                 هي بناء وتعزيز صورتك الذهنية بمختلف الطرق التسويق على الشبكات
                 الاجتماعية والانترنت حسب ما نقدمه حلول التسويق الرقمي الشامل
                 للشركات و الأفراد ، ويتركز عملنا مع عملائنا على الشركات الصغيرة

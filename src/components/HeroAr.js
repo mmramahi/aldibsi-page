@@ -28,7 +28,7 @@ const HeroAr = () => {
             </h1>
             <hr className="main-hr" />
             <div className="text-center">
-              <Button variant="danger" href="#contact">
+              <Button variant="danger" href="/ar#contact-ar">
                 تواصل معنا
               </Button>
             </div>

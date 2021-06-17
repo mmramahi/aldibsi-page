@@ -18,7 +18,7 @@ const CallToAction = () => {
           <Col md={6} className="d-flex align-items-center CTA">
             <div style={{ color: "#ff9700" }}>
               <h2 className="pb-4">Our mission</h2>
-              <p style={{ color: "#fff" }}>
+              <p style={{ color: "#ebebeb" }}>
                 Is to build and enhance your mental image in various ways
                 Marketing on social networks and the Internet, as we provide
                 solutions Comprehensive digital marketing for companies and

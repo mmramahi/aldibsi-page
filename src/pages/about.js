@@ -21,8 +21,10 @@ const About = ({ data }) => {
         <div className="aboutHeader">
           <h1>About Aldibsi Company</h1>
           <h4>WHO WE ARE</h4>
-          <h2>We are marketing people. We exist to help you grow.</h2>
-          <p>
+          <h2 style={{ color: "#ebebeb" }}>
+            We are marketing people. We exist to help you grow.
+          </h2>
+          <p style={{ color: "#ebebeb" }}>
             we make it simple. Each day, we come to work because we love to
             solve some of those most interesting marketing problems for our
             clients. Our expertise and experience in marketing strategy and
@@ -34,8 +36,10 @@ const About = ({ data }) => {
             <Row>
               <Col md={6}>
                 <h4>WHY CHOOSE US</h4>
-                <h2>We truly understand the market needs in our space.</h2>
-                <p>
+                <h2 style={{ color: "#ebebeb" }}>
+                  We truly understand the market needs in our space.
+                </h2>
+                <p style={{ color: "#ebebeb" }}>
                   We love making an impact. We hire, train and invest in top
                   talent to help our desire to push creative & marketing
                   boundaries and create value for our clients. Our goal is to
