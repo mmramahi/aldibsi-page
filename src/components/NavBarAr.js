@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Navbar, Nav } from "react-bootstrap"
 
-const NavBar = () => {
+const NavBarAr = () => {
   return (
-    <header>
-      <Container>
+    <header dir="rtl" style={{ fontFamily: "Almarai" }}>
+      <Container style={{ fontFamily: "Almarai" }}>
         <Navbar
           expand="sm"
           bg="dark"
@@ -14,12 +14,7 @@ const NavBar = () => {
           className="fixed-top scrolling-navbar"
         >
           <Container>
-            <Navbar.Brand href="/">
-              {/* <img
-                src="Aldibsi Logo11-08.png"
-                alt="aldibsi company logo"
-                width="80"
-              /> */}
+            <Navbar.Brand href="/ar">
               <StaticImage
                 src="../images/Aldibsi Logo11-08.png"
                 alt="logo"
@@ -29,35 +24,43 @@ const NavBar = () => {
               />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarResponsive" />
-            <Navbar.Collapse id="navbarResponsive">
-              <Nav className="ml-auto">
-                <Link to="/" className="nav-link" activeClassName="active">
-                  Home
-                </Link>
-                <Link to="/about" className="nav-link" activeClassName="active">
-                  About us
+            <Navbar.Collapse
+              id="navbarResponsive"
+              dir="rtl"
+              style={{ fontFamily: "Almarai" }}
+            >
+              <Nav className="mr-auto" dir="rtl">
+                <Link to="/ar" className="nav-link" activeClassName="active">
+                  الرئيسية
                 </Link>
                 <Link
-                  to="/ourwork"
+                  to="/ar/about"
                   className="nav-link"
                   activeClassName="active"
                 >
-                  Our Work
+                  من نحن
                 </Link>
                 <Link
-                  to="/#contact"
+                  to="/ar/ourwork"
                   className="nav-link"
                   activeClassName="active"
                 >
-                  Contact us
+                  أعمالنا
                 </Link>
                 <Link
-                  to="/ar"
+                  to="/ar#contact-ar"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  تواصل معنا
+                </Link>
+                <Link
+                  to="/"
                   className="nav-link"
                   activeClassName="active"
                   style={{ color: "#ff9700" }}
                 >
-                  عربي
+                  English
                 </Link>
               </Nav>
             </Navbar.Collapse>
@@ -68,4 +71,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBarAr

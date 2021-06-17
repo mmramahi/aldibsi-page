@@ -1,5 +1,6 @@
 import React from "react"
-import { Container, Jumbotron, Col, Row, Image } from "react-bootstrap"
+import { StaticImage } from "gatsby-plugin-image"
+import { Container, Jumbotron, Col, Row } from "react-bootstrap"
 
 const CallToAction = () => {
   return (
@@ -30,7 +31,12 @@ const CallToAction = () => {
             </div>
           </Col>
           <Col>
-            <Image src="19724-01.png" alt="image" fluid />
+            {/* <Image src="19724-01.png" alt="image" fluid /> */}
+            <StaticImage
+              src="../images/19724-01.png"
+              alt="call for action"
+              placeholder="blurred"
+            />
           </Col>
         </Row>
       </Container>

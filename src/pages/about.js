@@ -1,12 +1,21 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Container, Image, Col, Row } from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap"
+import { StaticImage } from "gatsby-plugin-image"
 
-const About = () => {
+const About = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <div className="aboutUsImage">
-        <Image src="about_us.jpg" />
+        {/* <Image src="about_us.jpg" /> */}
+        {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+        <StaticImage
+          src="../images/about_us.jpg"
+          alt="about us image"
+          placeholder="blurred"
+          layout="fullWidth"
+        />
       </div>
       <Container>
         <div className="aboutHeader">
@@ -37,7 +46,13 @@ const About = () => {
                 </p>
               </Col>
               <Col>
-                <Image src="why-choose-us.png" />
+                {/* <Image src="why-choose-us.png" /> */}
+                <StaticImage
+                  src="../images/why-choose-us.png"
+                  alt="about us image"
+                  placeholder="blurred"
+                  layout="fullWidth"
+                />
               </Col>
             </Row>
           </div>

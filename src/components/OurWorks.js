@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import { Container, Card, CardDeck } from "react-bootstrap"
 
 const OurWorks = () => {
@@ -7,14 +8,16 @@ const OurWorks = () => {
       <Container>
         <h2 className="pb-4">Our Services</h2>
         <CardDeck className="pb-4">
-          <Card
-            style={{ minWidth: "250px" }}
-            className="mb-4 single-services-box"
-          >
-            <Card.Img
+          <Card className="mb-4 single-services-box">
+            {/* <Card.Img
               variant="top"
               src="servicesImage/SOCIAL-MEDIA-MARKETING.png"
               alt="post image"
+            /> */}
+            <StaticImage
+              src="../images/servicesImage/SOCIAL-MEDIA-MARKETING.png"
+              alt="post image"
+              placeholder="blurred"
             />
             <Card.Body>
               <Card.Title>Social Media Marketing</Card.Title>
@@ -25,14 +28,16 @@ const OurWorks = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card
-            style={{ minWidth: "250px" }}
-            className="mb-4 single-services-box"
-          >
-            <Card.Img
+          <Card className="mb-4 single-services-box">
+            {/* <Card.Img
               variant="top"
               src="servicesImage/OVEDMU1.jpg"
               alt="post image"
+            /> */}
+            <StaticImage
+              src="../images/servicesImage/OVEDMU1.jpg"
+              alt="post image"
+              placeholder="blurred"
             />
             <Card.Body>
               <Card.Title>Graphic Design</Card.Title>
@@ -43,14 +48,16 @@ const OurWorks = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card
-            style={{ minWidth: "250px" }}
-            className="mb-4 single-services-box"
-          >
-            <Card.Img
+          <Card className="mb-4 single-services-box">
+            {/* <Card.Img
               variant="top"
               src="servicesImage/web-development-2.png"
               alt="post image"
+            /> */}
+            <StaticImage
+              src="../images/servicesImage/web-development-2.png"
+              alt="post image"
+              placeholder="blurred"
             />
             <Card.Body>
               <Card.Title>Website Development</Card.Title>

@@ -7,7 +7,11 @@ const Footer = () => {
       <Container>
         <p>Copyright | 2021</p>
         <div className="social">
-          <a href="https://www.facebook.com/aldibsi.WB" target="_blank">
+          <a
+            href="https://www.facebook.com/aldibsi.WB"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +29,7 @@ const Footer = () => {
           <a
             href="https://api.whatsapp.com/send?phone=962788894099"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i>
               <svg
@@ -39,7 +44,11 @@ const Footer = () => {
               </svg>
             </i>
           </a>
-          <a href="https://www.instagram.com/aldibsi.wb" target="_blank">
+          <a
+            href="https://www.instagram.com/aldibsi.wb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

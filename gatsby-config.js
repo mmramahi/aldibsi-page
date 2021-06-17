@@ -14,5 +14,17 @@ module.exports = {
     image: "/Aldibsi Logo11-08.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
