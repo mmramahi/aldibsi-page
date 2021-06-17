@@ -1,5 +1,5 @@
 import React from "react"
-import NavBarAr from "./NavbarAr"
+import NavBarAr from "./NavBarAr"
 import Footer from "./Footer"
 import Seo from "../components/Seo"
 import { Helmet } from "react-helmet"
