@@ -5,8 +5,12 @@ const Footer = () => {
   return (
     <footer className="bg-dark">
       <Container>
-        <p style={{ color: "#c2c2c2" }}>Copyright | 2021</p>
-        <p style={{ color: "#c2c2c2" }}>Created by: Moodesign</p>
+        <p style={{ color: "#c2c2c2", paddingTop: "30px" }}>Copyright | 2021</p>
+        <p
+          style={{ color: "#c2c2c2", paddingTop: "5px", paddingBottom: "30px" }}
+        >
+          Created by: Moodesign
+        </p>
         <div className="social">
           <a
             href="https://www.facebook.com/aldibsi.WB"
