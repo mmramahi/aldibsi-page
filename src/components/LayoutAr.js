@@ -16,6 +16,7 @@ const LayoutAr = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
           rel="stylesheet"
         />
+        <html lang="ar" />
       </Helmet>
       <NavBarAr />
       <div className="content" style={{ fontFamily: "Almarai" }}>

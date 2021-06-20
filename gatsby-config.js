@@ -13,6 +13,7 @@ module.exports = {
     url: "https://www.aldibsi.com", // No trailing slash allowed!
     image: "/Aldibsi Logo11-08.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
+    keywords: `Marketing agency, Marketing company, graphic design, web page design, social media marketing, posters,logo design`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
